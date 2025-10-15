@@ -3,12 +3,12 @@ GR-AttNet: Robotic Grasping with Lightweight Spatial Attention Mechanism
 
 ## Dataset
 
-Download and extract the Cornell Grasping dataset and run the following command: 
+Download the dataset you need from the link below. In addition, the Cornell dataset requires running the following command for additional processing.
+
 -   [Cornell Grasping Dataset](http://pr.cs.cornell.edu/grasping/rect_data/data.php)
 -   [Jacquard Dataset](https://jacquard.liris.cnrs.fr/)
 -   [Multi-cornell Dataset](https://github.com/ivalab/grasp_multiObject)
 
-The Cornell dataset needs to be processed.
 ```
 python -m utils.dataset_processing.generate_cornell_depth <Path To Dataset>
 
@@ -20,7 +20,7 @@ python -m utils.dataset_processing.generate_cornell_depth <Path To Dataset>
 git clone https://github.com/zsliu0304/GR-AttNet.git
 
 ```
--Please set up your environment according to GR-CNN(https://github.com/skumra/robotic-grasping)
+- Please set up your environment according to GR-CNN(https://github.com/skumra/robotic-grasping)
 
 ## Training
 ```
