@@ -11,14 +11,12 @@ Download the dataset you need from the link below. In addition, the Cornell data
 
 ```
 python -m utils.dataset_processing.generate_cornell_depth <Path To Dataset>
-
 ````
 
 ## Environment
 - Clone this repository and install required libraries
 ```
 git clone https://github.com/zsliu0304/GR-AttNet.git
-
 ```
 - Please set up your environment according to GR-CNN(https://github.com/skumra/robotic-grasping)
 
