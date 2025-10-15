@@ -8,7 +8,7 @@ Download and extract the Cornell Grasping dataset and run the following command:
 -   [Jacquard Dataset](https://jacquard.liris.cnrs.fr/)
 -   [Multi-cornell Dataset](https://github.com/ivalab/grasp_multiObject)
 
--    The Cornell dataset needs to be processed.
+The Cornell dataset needs to be processed.
 ```
 python -m utils.dataset_processing.generate_cornell_depth <Path To Dataset>
 
