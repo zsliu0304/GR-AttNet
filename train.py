@@ -142,7 +142,7 @@ def main():
 
     # ---- Records ----
     best_iou   = 0.0
-    train_losses, val_losses, val_ious = [], []
+    train_losses, val_losses, val_ious = [], [], []
 
     for epoch in range(1, EPOCHS + 1):
         t0 = time.time()
@@ -182,4 +182,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
